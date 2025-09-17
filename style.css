@@ -1,0 +1,91 @@
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+/* ANIMATIONS */
+@keyframes topFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Optional: slight vertical movement */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* STYLES */
+body{
+    background-color: rgb(132, 67, 151);
+}
+.finnagen{
+    color: #ffffff;
+    animation: topFadeIn 0.6s ease-out forwards;
+    font-family: "Alexandria", Arial, sans-serif;
+    -webkit-text-stroke: 6px, #241525;
+    paint-order: stroke fill;
+}
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 70%;
+    width: 30%;
+    height: 30px;
+}
+.top-bar-button1{
+    position: absolute;
+    top: center;
+    left: 10%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    transform-origin: center, center;
+    transition: transform 0.3s ease-in-out;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+.top-bar-button2{
+    position: absolute;
+    top: 5%;
+    left: center;
+    height: 25px;
+    background: transparent;
+    border: none;
+    transform-origin: center, center;
+    transition: transform 0.3s ease-in-out;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+.top-bar-button1:hover{
+    transform: scale(1.1);
+}
+.top-bar-button2:hover{
+    transform: scale(1.1);
+}
+.top-bar-image-inverted{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 120%;
+    transform: translate(-50%, -50%); 
+    aspect-ratio: 0.96;
+    filter: invert();
+}
+.top-gradient{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12.5%;
+    background-image: linear-gradient(to bottom, rgb(52, 26, 59), rgb(132, 67, 151));
+    padding: 10px;
+    text-align: center;
+}
+.under-text{
+    color: #ffffff;
+    animation: topFadeIn 1s ease-out forwards;
+    font-family: Alexandria, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: normal;
+    opacity: 0.8;
+}
