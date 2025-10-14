@@ -148,6 +148,7 @@ h2{
     height: 2px;
     fill: #ffffff;
     border-radius: 50px;
+    margin: 0 auto;
 }
 
 .seperator_animated_60_percent{
@@ -156,6 +157,7 @@ h2{
     height: 2px;
     fill: #ffffff;
     border-radius: 50px;
+    margin: 0 auto;
 }
 .grid-container{
     display: grid;
