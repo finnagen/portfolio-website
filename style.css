@@ -75,6 +75,7 @@ h1{
     margin: right auto;
     width: 20vw;
     height: 4vh;
+    max-width: 220px;
 }
 .top-bar-button1{
     position: relative;
