@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en">
+     <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>gort.</title>
+        <link rel="icon" href="https://i.ibb.co/GSXyLhp/gortpfp.png" type="image/png">
+    </head>
+
+    <body>
+        <div class="top_nav">
+            <a href="../index.html">Home</a>
+            <a class="current" href="./index.html">About Me</a>
+            <a href="../works/index.html">Past Works</a>
+
+            <img src="https://i.ibb.co/Pv3HvXH9/gort-logo.png" alt="gort." class="gort_logo_image">
+        </div>
+
+        <section>
+            <div class="header_column">
+                <div class="hero_image">
+                    <img src="https://i.ibb.co/GSXyLhp/gortpfp.png" alt="drawn by yours truly :3" class="gort_image">
+                </div>
+
+                <section class="hero_text">
+                    <h1 class="main_header">
+                        about me
+                    </h1>
+
+                    <p>
+                        I'm a full-stack programmer in <b>Lua(u)</b> (roblox), <b>Python</b>, a front-end programmer in <b>HTML/CSS</b>, and a novice programmer in <b>Typescript</b> and <b>C#</b>. <br><br>
+                        
+                        I am also a novice <b>music producer</b>, <b>musician</b>, and <b>graphic designer</b>.
+                    </p>
+                </div>
+            </div>
+            
+            <div id="scroll_marker" class="scroll_marker">
+                <b>Scroll down!<br>⌄</b>
+            </div>
+        </section>
+
+        <div class="staggered_child">
+            <div class="flex_l">
+                <div class="info">
+                    <h2 class="left_component">
+                        my experience
+                    </h2>
+                    <p class="left_component">
+                        I've done countless commissions for multiple projects and developers, notably front-end work for <b>Anime Overdrive</b>, an Anime-based card game that is no longer active.<br><br>
+                        Most of the work I do is for fun, or for open-source material, which you can find on my GitHub or in the <b>Past Works</b> section of my portfolio.
+                    </p>
+                </div>
+
+                <img src="https://i.ibb.co/jZTJYnq5/pixil-gif-drawing-1.gif">  
+            </div>
+        </div>
+
+            <div class="staggered_child">
+                <div class="flex_r">
+                    <img src="https://i.ibb.co/0R7QJ8Dj/notes.png">  
+
+                    <div class="info">
+                        <h2 class="left_component">
+                            my journey
+                        </h2>
+                        <p class="left_component">
+                            I started developing when I was barely old enough to know what I was doing using Roblox Studio; I learned Luau by teaching myself through tutorials and countless hours of scrolling through documentation, as well as getting help from people who were much better than me. <br><br>
+                            Throughout this experience, I picked up on multiple other languages, like Python and Typescript, and began music production as an extension of my previous musical skills with the piano and drums. I also began learning graphic design in Figma.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            const scroll_banner = document.getElementById("scroll_marker")
+
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 0) {
+                    scroll_banner.classList.add("hidden")
+                } else {
+                    scroll_banner.classList.remove("hidden")
+                }
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+{
+    "scripting": {
+        "discordu-v2": {
+            "title": "discordu-v2",
+            "description": "a very bare-bones luau wrapper for discord bots",
+            "media": "https://i.ibb.co/sv8mGBkj/image.png",
+            "ref": "https://github.com/finnagen/discordu-v2"
+        },
+        "anime-overdive": {
+            "title": "front-end abilities",
+            "description": "i wrote all of the front-end for every ability in anime overdrive!",
+            "media": "https://i.ibb.co/nMbGyTcY/2026-08-1515-11-08-ezgif-com-video-to-gif-converter-1.gif"
+        },
+        "maps": {
+            "title": "MAPS",
+            "description": "\"moon animator to playable sequence\"; A library allowing for in-game playback of Moon Animator files.",
+            "media": "https://i.ibb.co/q3Lk2Y1x/image.png",
+            "ref": "https://github.com/finnagen/cutscene-library"
+        },
+        "waff": {
+            "title": "simulation game system",
+            "description": "a tomadachi life-esque system currently in development.",
+            "media": "https://i.ibb.co/zWWDPS2j/2026-08-1517-22-06-ezgif-com-video-to-gif-converter-1.gif"
+        }
+    },
+
+    "music": {
+        "madness": {
+            "title": "MADNESS",
+            "description": "a rock-breakcore fusion track",
+            "media": "https://i.ibb.co/C5B4QvNP/madness.png",
+            "ref": "https://youtu.be/y36Itxifi50" 
+        },
+        "boa": {
+            "title": "boa",
+            "description": "a melancholy, emotional track",
+            "media": "https://i.ibb.co/1fxK0g71/boa.png",
+            "ref": "https://youtu.be/kpUWXVOqt8M" 
+        },
+        "proximity": {
+            "title": "Proximity",
+            "description": "the first song I've made, quick yet emotional",
+            "media": "https://i.ibb.co/Txm2FrH6/proximity.png",
+            "ref": "https://youtu.be/Xqx0sZ0Hh5E" 
+        }
+    }
+}
